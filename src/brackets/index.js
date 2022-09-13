@@ -11,7 +11,7 @@ function isValid(str) {
 
     const arrStr = str.split("") //Spacing the Brackets
     
-    for(i of arrStr){ //looping through
+    for(let i of arrStr){ //looping through
         if(ArrBracketOpen.includes(i)){
             arr.push(i) // each item in the bracket array
         }else if(ArrBracketClose.includes(i)) {
