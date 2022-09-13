@@ -25,7 +25,7 @@ function romanToDecimal(roman) {
     }
 
     let result = 0;
-    for (i = 0; i < roman.length; i++){
+    for (let i = 0; i < roman.length; i++){
      // Getting value of symbol s[i]
         let value1 = romanFig(roman.charAt(i));
 
